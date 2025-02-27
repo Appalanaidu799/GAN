@@ -1,0 +1,247 @@
+#p1{
+text-algin:center;
+color:red;
+}
+
+p1 is the id 
+<p id="p1"> this paragraph is effected that id colour and placed at center.</p>
+
+
+
+.center {
+  text-align: center;
+  color: red;
+}
+
+
+<h1 class= "center">Red and center <h1>
+
+
+in case of you have same class number you have to mentioned prefex of .center  ===h1.center
+
+<h1 class="center">This heading will not be affected</h1>
+<p class="center">This paragraph will be red and center-aligned.</p> 
+
+
+
+*{
+text-algin:center;
+color:blue;
+}
+this is used to algin all the elements which is in the paragraph, heading it apply total page
+
+<link> is used to give exteranla style sheet
+
+
+
+<h1 style="color:blue;text-align:center;">This is a heading</h1>
+
+
+<h1 style="color:Tomato;">Hello World</h1>
+opacity: 0.3 is used for the bluree the content 
+
+
+background-repeat: repeat-x;  ----------
+
+background-repeat: no-repeat; that image is doesn't repeated again the screen 
+
+ background-position: right top;
+  margin-right: 200px;
+
+  border-style: dotted solid; that means first up is dotted left is solid and down dotted and right is solid
+
+
+
+
+ border: 5px solid red; size and second tyoe and third is red
+
+
+ margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+}
+margin is used to  placed that particular object is in the page 
+
+
+margin: 25px 50px 75px;
+
+
+p.ex1 {
+  border: 2px solid black;
+  outline-style: solid;
+  outline-color: red;
+}
+outline-offset is used to give another broder of the present broder
+
+text-decoration-line: underline;
+
+text-indent means the starting line space from the page
+
+
+text -shadow is used to gibven the shadow of the given words
+
+
+
+icons adding --------
+
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+ is used to give the colour when we are see 
+
+a:hover{
+color:red;
+}
+it means when ever the curser placed at that object then the color is changed to red from green 
+
+
+list-style-type:circle;
+ . Coffee
+it give a circle before the object
+
+ list-style-image: url('sqpurple.gif');
+
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+in table format
+
+li {
+  display: inline;
+}
+which is under li apperad in the single line 
+
+
+position is used to givce the position of the particular thing 
+z-index is used to placed appearance
+
+
+if you want to place a image at right side using float command it cna be appperaed at the right sied
+
+float:right
+
+
+.div3 {
+  float: left;
+  padding: 10px;  
+  border: 3px solid #73AD21;
+}
+
+.div4 {
+  padding: 10px;
+  border: 3px solid red;
+  clear: left;
+it can be used to first create div3 as a left upside of div4 then it can be cresated
+
+h1::before{
+content:url(image photo );
+}
+that particular image appeared on the first of the heading 
+
+::  marker is used to given line numbers and circles
+
+
+
+
+
+  border-radius: 25px; shape of the boarder
+
+  border-image: url(border.png) 30 round;  border-image: url(border.png) 30 round;
+
+#example1 {
+  background-image: url(img_flwr.gif), url(paper.gif);
+  background-position: right bottom, left top;
+  background-repeat: no-repeat, repeat;
+  padding: 15px;
+}
+
+exactly position of the picture
+
+
+
+ background-image: linear-gradient(to bottom right, red, yellow); it can be appear like the planents
+
+  background-image: conic-gradient(red, yellow, green, blue, black); with the center point we got a color exchange
+
+ background-image: conic-gradient(red, yellow, green, blue, black);
+  border-radius: 50%;   
+it can be appear like a circle and colour should be changed
+
+transatation are used to spread a thing 
+div {
+  width: 100px;
+  height: 100px;
+  background: red;
+  transition: width 2s;
+}
+
+div:hover {
+  width: 300px;
+}
+
+
+it indicates it can extend upto 300px of the width and after 2seconds the width of the object increase 
+
+  animation-name:example;
+  animation-duration: 4s;
+}
+
+@keyframes example {
+  from {background-color: red;}
+  to {background-color: blue;}
+}
+colour changed and it get back to the original colour
+
+  filter: blur(2px);
+  clip-path: circle(50% at right);
+
+
+  -webkit-mask-image: url(w3logo.png);
+  mask-image: url(w3logo.png);
+  mask-repeat: no-repeat;    
+}
+
+
+  flex-direction: column;
+or flex-direction:row;
+it means the given objects are in rouw or columns
+
+
+
+.container {
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "menu content"
+    "footer footer";
+  grid-template-columns: 1fr 3fr;
+  gap: 5px;
+  background-color: #2196F3;
+  padding: 5px;
+}
+.container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+}
+.container > div.header {
+  grid-area: header;
+  text-align: center;
+}
+.container > div.menu {
+  grid-area: menu;
+}
+.container > div.content {
+  grid-area: content;
+}
+.container > div.footer {
+  grid-area: footer;
+}
+</style>
+
+
+grid area is used to give the area of the particular object 
